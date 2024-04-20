@@ -2,7 +2,7 @@
   
 }
 .mid-image{
-    margin: 0;
+    margin: 0px 0px 0px 0px;
     padding: 0;
 }
 .mid-image img{
@@ -17,6 +17,7 @@
     background-color: yellow;
     height: 155px;
     margin-top: 0px;
+    padding-top: 0px;
 }
 .scanner-container p{
     font-size: 25px;
@@ -24,4 +25,99 @@
 }
 .scanner-img{
    margin-left: 50px;
+}
+.top-clash-container h1{
+    text-align: center;
+    font-size: 46px;
+    color: #680485;
+    font-weight: 800;
+    margin-top: 72px;
+    margin-bottom: 24px;
+    font-style: italic;
+    line-height: 60px;
+}
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.game-container div{
+    background-color: #f4f2f6;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.game-container div img{
+   border-radius: 5px;
+   height: 254px;
+   
+}
+.game-container div p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    color: #230046;
+    
+}
+.widget-container{
+    margin-top: 130px;
+    text-align: center;
+}
+.withdraw-container h2{
+    text-align: center;
+    font-size: 48px;
+    color: #680485;
+    font-weight: 800;
+    margin-top: 72px;
+    margin-bottom: 24px;
+    font-style: italic;
+    line-height: 50px;
+}
+.pay-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.pay-container div{
+    margin-top: 30px;
+}
+.pay-container div img{
+    width: 124px;
+    height: 124px;
+}
+.pay-container div p{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(35 0 70 1);
+    font-weight: 400;
+    font: bold;
+    line-height: 10px;
+}
+.real-money-para{
+    text-align: center;
+}
+.real-money-para h2{
+    text-align: center;
+    font-size: 48px;
+    color: #680485;
+    font-weight: 800;
+    margin-top: 72px;
+    margin-bottom: 24px;
+    font-style: italic;
+    line-height: 50px;
+}
+.real-money-para p{
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    word-break: break-word;
+    margin: 12px 72px;
+    text-align: left;
+    color: #180a2899;
+    font-weight: 400;
 }
