@@ -101,6 +101,10 @@ const MidContent = () => {
           Call Break, Win Patti Skill, and more, all on one platform!
         </p>
       </div>
+      <div className="faq-container">
+        <h2>FAQs</h2>
+
+      </div>
     </div>
   );
 };
