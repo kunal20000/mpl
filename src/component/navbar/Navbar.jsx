@@ -4,6 +4,15 @@ import mplLogo from "../images/mpl-logo.png";
 import LanguageLogo from '../asset/language_logo.svg';
 import HelpImage from '../images/help_icon.webp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Divider,
+  Typography,
+} from "@mui/material"; 
+
+
 const Navbar = () => {
   return (
     <div className="navbar-container">
