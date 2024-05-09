@@ -121,8 +121,20 @@
     color: #180a2899;
     font-weight: 400;
 }
+.faq-container{
+    
+    margin-left:  80px;
+    margin-right: 80px;
+}
 .faq-container h2{
     text-align: center;
     font-size: 48px;
     margin-top: 80px;
+   
+}
+.expand-container{
+    
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
 }
