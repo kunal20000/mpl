@@ -4,6 +4,7 @@ import mplLogo from "../images/mpl-logo.png";
 import LanguageLogo from '../asset/language_logo.svg';
 import HelpImage from '../images/help_icon.webp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import {
   Accordion,
   AccordionDetails,
@@ -14,13 +15,16 @@ import {
 
 
 const Navbar = () => {
+  const handleArrow = ()=>{
+
+  }
   return (
     <div className="navbar-container">
       <div className="nav-image">
         <img className="mpl-image" src={mplLogo} alt="mpl-image" />
 
          <ul className="game-container-list">
-          <li>MPL Games <KeyboardArrowDownIcon/> </li>
+          <li>MPL Games <KeyboardArrowDownIcon onClick={handleArrow}/> </li>
           <li>About</li>
           <li>Blogs</li>
           <li>FAQs</li>
